@@ -1,0 +1,38 @@
+<mat-toolbar class="secondary" color="primary">
+    <div class="marquee-container">
+        <div class="marquee">Counselling Community Platform(CCP)</div>
+    </div>
+    <div class="marquee-container">
+        <div class="marquee">Jumuia ya Ushauri</div>
+    </div>
+    <span class="spacer"></span>
+    <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+</mat-toolbar>
+    <div class="toolbar-container">
+        <!-- <div class="logo-container"></div> -->
+        <div class="logo-container">
+            <img src="../../assets/logo.jpg" alt="Logo" class="logo">
+            <span class="CCPlogo">CCP</span>
+        </div>
+        
+        <span class="spacer"></span>
+        <button mat-icon-button class="navbar-toggler d-lg-none" type="button" aria-label="Toggle navigation">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <nav class="nav-links">
+            <a mat-button class="navbar-brand" href="#">Home</a>
+            <a mat-button class="nav-link" routerLink="about" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">About</a>
+            <a mat-button class="nav-link" routerLink="counselors" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Counselors</a>
+            <a mat-button class="nav-link" routerLink="services" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Services</a>
+            <a mat-button class="nav-link" href="contactus" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Contact Us</a>
+        </nav>
+        <div class="auth-buttons">
+            <button mat-raised-button color="primary" routerLink="signup" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">SignUp</button>
+            <button mat-raised-button color="accent" routerLink="login" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Login</button>
+        </div>
+    </div>
+

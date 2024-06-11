@@ -1,0 +1,63 @@
+.main-banner {
+    background-image: url('/assets/Africa call centre-lady.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    color: white;
+    padding: 100px 20px;
+    /* Removed text-align: center; */
+  
+
+  }
+  .main-banner img {
+    width: 100%;
+    height: auto;
+  }
+  .banner-content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-left: 20px; /* Optional: Adjust as necessary for desired spacing */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .banner-buttons {
+    margin-top: 20px;
+    text-align: left; /* Ensure buttons are aligned to the left */
+  }
+  
+  @media (max-width: 768px) {
+    .main-banner {
+      padding: 50px 10px;
+    }
+  
+    .banner-content {
+      padding-left: 10px; /* Optional: Adjust for smaller screens */
+    }
+  }
+  
+  .info-section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .info-card {
+    margin: 10px 0;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 768px) {
+    .info-section {
+      flex-direction: row;
+    }
+  
+    .info-card {
+      flex: 1;
+      margin: 10px;
+    }
+  }
+  
